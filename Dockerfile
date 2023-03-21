@@ -1,5 +1,9 @@
 # docker build -t goropikari/kmk_website:corne_miniec_v0.1 --no-cache .
 # docker run -p 3000:3000 goropikari/kmk_website:corne_miniec_v0.1
+# docker tag goropikari/kmk_website:corne_miniec_v0.1 goropikari/kmk_website:latest
+# docker push goropikari/kmk_website:corne_miniec_v0.1
+# docker push goropikari/kmk_website:latest
+
 FROM node:16-buster
 
 ENV DEBIAN_FRONTEND=noninteractive
